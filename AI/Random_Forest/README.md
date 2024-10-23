@@ -2,6 +2,12 @@
 
 ## Principle
 
+### Bootstrapping
+- Extract a subset from original data to form new dataset
+
+### Random Feature Selection
+- Extract a random attribute from subset to use as a split
+
 ### Entropy
 ![](./images/entropy.png)
 - Uncertainty in a dataset
