@@ -1,13 +1,17 @@
 # Control Theory
 
-## Input Domain
+## The Equation
+
+> `output = f(input)`
+
+### Input Domain
 - Sensor Fusion
 - Kalman Filter
 - Low Pass Filter
 
-## Process Domain
+### Process Domain
 - Math Model
 
-## Output Domain
+### Output Domain
 - PID Controller
 - Hystersis Controller

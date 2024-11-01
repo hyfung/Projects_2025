@@ -1,20 +1,23 @@
 # String Matching
 
 ## Principle
+
 - Calculates similarity between two strings
 
 ## Examples
-|Method|Advantages|
-|-|-|
-|Jaccard Similarity| Good for comparing sets of words or characters|
-|Cosine Similarity| Excellent for comparing documents or longer texts|
-|Hamming Distance| Works well with strings of equal length|
-|Jaro-Winkler Distance| Suitable for matching names or strings with small errors|
-|Damerau-Levenshtein Distance| Best for correcting typographical errors|
+
+| Method                       | Advantages                                               | Criteria |
+| ---------------------------- | -------------------------------------------------------- | -------- |
+| Jaccard Similarity           | Good for comparing sets of words or characters           |          |
+| Cosine Similarity            | Excellent for comparing documents or longer texts        |          |
+| Hamming Distance             | Works well with strings of equal length                  |          |
+| Jaro-Winkler Distance        | Suitable for matching names or strings with small errors |          |
+| Damerau-Levenshtein Distance | Best for correcting typographical errors                 |          |
 
 ### Levenshtein Distance | Fuzzy Matching
 
 #### Definition
+
 - Levenshtein distance calculation
 - Number of insertion, deletions or substitution required to transform one string to another
 - Ratio = (1 - LD/max(lenA, lenB) ) x 100
@@ -23,6 +26,7 @@
 - Token Set Ratio: Finds common between two strings, compute LR, gives weighted score
 
 #### Sample Code
+
 ```python
 from fuzzywuzzy import process
 
@@ -41,11 +45,13 @@ print(f"Closest match: {result[0]} with a similarity score of {result[1]}")
 ### Jaccard Similarity
 
 #### Definition
+
 - `size_of_intersection` / `size_of_union`
 - Strings are tokenized
 - Similarity based on token count
 
 #### Sample Code
+
 ```python
 def jaccard_similarity(str1, str2):
     set1, set2 = set(str1), set(str2)
@@ -63,10 +69,12 @@ print(f"Jaccard Similarity: {similarity}")
 ### Cosine Similarity
 
 #### Definition
+
 - Cosine angle between two vetcors in N-d space
 - String is represented as vector by Term Frequency-Inverse Document Frequency (TF-IDF)
 
 #### Sample Code
+
 ```python
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
@@ -74,13 +82,13 @@ from sklearn.metrics.pairwise import cosine_similarity
 def cosine_sim(input_string, ground_truth):
     # Add input_string to ground_truth for vectorization
     strings = ground_truth + [input_string]
-    
+
     # Vectorize the strings using TF-IDF
     vectorizer = TfidfVectorizer().fit_transform(strings)
-    
+
     # Calculate cosine similarity with the last string (input_string)
     cosine_similarities = cosine_similarity(vectorizer[-1], vectorizer).flatten()
-    
+
     # Find the index of the maximum similarity (excluding self-comparison)
     best_match_idx = cosine_similarities[:-1].argmax()
     return ground_truth[best_match_idx], cosine_similarities[best_match_idx]
@@ -95,9 +103,11 @@ print(f"Closest match: {result} with a similarity score of {similarity_score}")
 ### Hamming Distance
 
 #### Definition
+
 - Number of position at which two strings of equal length differs
 
 #### Sample Code
+
 ```python
 def hamming_distance(str1, str2):
     if len(str1) != len(str2):
@@ -114,12 +124,14 @@ print(f"Hamming Distance: {distance}")
 ### Jaro-Winkler Distance
 
 #### Definition
+
 - Extension of Jaro distance metric
 - Similarity between two strings based on common characters and transpositions
 - Higher scores to string with common prefix
 - Good for comparing similar names or words
 
 #### Sample Code
+
 ```python
 from jellyfish import jaro_winkler_similarity
 
@@ -134,11 +146,13 @@ print(f"Jaro-Winkler Similarity: {similarity}")
 ### Damerau-Levenshtein Distance
 
 #### Definition
+
 - Variant of Levenshtein distance
 - Accounts for transposition of adjacent characters too
 - Suitable for typographical errors
 
 #### Sample Code
+
 ```python
 import textdistance
 
