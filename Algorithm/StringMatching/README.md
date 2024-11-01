@@ -43,6 +43,7 @@ print(f"Closest match: {result[0]} with a similarity score of {result[1]}")
 #### Definition
 - `size_of_intersection` / `size_of_union`
 - Strings are tokenized
+- Similarity based on token count
 
 #### Sample Code
 ```python

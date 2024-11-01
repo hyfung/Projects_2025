@@ -1,0 +1,4 @@
+fuzzywuzzy
+scikit-learn
+jellyfish
+textdistance
