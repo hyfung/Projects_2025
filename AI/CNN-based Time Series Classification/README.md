@@ -74,6 +74,36 @@ while True:
 cv2.destroyAllWindows()
 ```
 
+> Diversifying data
+
+```python
+data = np.array([1, 2, 3, 4, 5])
+
+# Parameters for Gaussian noise
+mean = 0  # Mean of the Gaussian noise
+std_dev = 0.5  # Standard deviation of the Gaussian noise
+
+# Generate Gaussian noise
+noise = np.random.normal(mean, std_dev, data.shape)
+
+# Add the noise to the original data
+noisy_data = data + noise
+
+for i, array in enumerate([data, noisy_data]):
+    plt.plot(array, label=f'Array {i+1}')
+
+# Add labels, legend, and title
+plt.xlabel('Index')
+plt.ylabel('Value')
+plt.title('10 One-Dimensional Arrays')
+plt.xlim(0, 100)
+plt.ylim(0, 100)
+plt.legend()
+
+# Show the plot
+plt.show()
+```
+
 > Plotting different waveforms
 
 ```python
