@@ -22,9 +22,7 @@
 
 ### Dense Network
 
-```
-Using Tensorflow Keras, create a Dense network to perform binary classification on images with dimension 1920 x 1080 and single channel with 1 bit color depth, preserving the original aspect ratio, downsize input by 20x to reduce number of parameters
-```
+> Using Tensorflow Keras, create a Dense network to perform binary classification on images with dimension 1920 x 1080 and single channel with 1 bit color depth, preserving the original aspect ratio, downsize input by 20x to reduce number of parameters
 
 > Preprocessing
 
@@ -109,19 +107,19 @@ model.summary()
 ```bash
 Model: "sequential_2"
 _________________________________________________________________
-Layer (type)                 Output Shape              Param #   
+Layer (type)                 Output Shape              Param #
 =================================================================
-flatten_2 (Flatten)          (None, 5184)              0         
+flatten_2 (Flatten)          (None, 5184)              0
 _________________________________________________________________
-dense_6 (Dense)              (None, 128)               663680    
+dense_6 (Dense)              (None, 128)               663680
 _________________________________________________________________
-dropout_4 (Dropout)          (None, 128)               0         
+dropout_4 (Dropout)          (None, 128)               0
 _________________________________________________________________
-dense_7 (Dense)              (None, 64)                8256      
+dense_7 (Dense)              (None, 64)                8256
 _________________________________________________________________
-dropout_5 (Dropout)          (None, 64)                0         
+dropout_5 (Dropout)          (None, 64)                0
 _________________________________________________________________
-dense_8 (Dense)              (None, 1)                 65        
+dense_8 (Dense)              (None, 1)                 65
 =================================================================
 Total params: 672,001
 Trainable params: 672,001
@@ -142,8 +140,86 @@ history = model.fit(
 
 ### Convolution Network
 
-```python
+> Using Tensorflow Keras, create a Conv2D network to perform binary classification on images with dimension 1920 x 1080 with single channel 8 bit color depth, preserving the original aspect ratio, downsize input by 20x to reduce number of parameters
 
+> Model
+
+```python
+import tensorflow as tf
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout, BatchNormalization
+
+# Model Definition
+def create_model():
+    model = Sequential()
+    # Input shape is downsized 20x from 1920x1080, single channel (grayscale)
+    input_shape = (54, 96, 1)
+    # Conv Layer 1
+    model.add(Conv2D(32, (3, 3), activation='relu', input_shape=input_shape))
+    model.add(BatchNormalization())
+    model.add(MaxPooling2D((2, 2)))
+    # Conv Layer 2
+    model.add(Conv2D(64, (3, 3), activation='relu'))
+    model.add(BatchNormalization())
+    model.add(MaxPooling2D((2, 2)))
+    # Conv Layer 3
+    model.add(Conv2D(128, (3, 3), activation='relu'))
+    model.add(BatchNormalization())
+    model.add(MaxPooling2D((2, 2)))
+    # Flattening
+    model.add(Flatten())
+    # Fully connected layers
+    model.add(Dense(128, activation='relu'))
+    model.add(Dropout(0.5))
+    # Output layer for binary classification
+    model.add(Dense(1, activation='sigmoid'))
+    # Compile the model
+    model.compile(optimizer='adam',
+                  loss='binary_crossentropy',
+                  metrics=['accuracy'])
+    return model
+
+# Create and summarize the model
+model = create_model()
+model.summary()
+```
+
+```bash
+Model: "sequential_4"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv2d (Conv2D)              (None, 52, 94, 32)        320       
+_________________________________________________________________
+batch_normalization (BatchNo (None, 52, 94, 32)        128       
+_________________________________________________________________
+max_pooling2d (MaxPooling2D) (None, 26, 47, 32)        0         
+_________________________________________________________________
+conv2d_1 (Conv2D)            (None, 24, 45, 64)        18496     
+_________________________________________________________________
+batch_normalization_1 (Batch (None, 24, 45, 64)        256       
+_________________________________________________________________
+max_pooling2d_1 (MaxPooling2 (None, 12, 22, 64)        0         
+_________________________________________________________________
+conv2d_2 (Conv2D)            (None, 10, 20, 128)       73856     
+_________________________________________________________________
+batch_normalization_2 (Batch (None, 10, 20, 128)       512       
+_________________________________________________________________
+max_pooling2d_2 (MaxPooling2 (None, 5, 10, 128)        0         
+_________________________________________________________________
+flatten_3 (Flatten)          (None, 6400)              0         
+_________________________________________________________________
+dense_9 (Dense)              (None, 128)               819328    
+_________________________________________________________________
+dropout_6 (Dropout)          (None, 128)               0         
+_________________________________________________________________
+dense_10 (Dense)             (None, 1)                 129       
+=================================================================
+Total params: 913,025
+Trainable params: 912,577
+Non-trainable params: 448
+_________________________________________________________________
+>>> 
 ```
 
 ## Drawbacks
