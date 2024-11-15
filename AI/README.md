@@ -25,4 +25,32 @@ There are numerous way to serve a model
   - FastAPI
 - Integrated
   - Embed in application
-  - Code to update
+  - Code to update or fetch model
+
+### Continuous Integration
+
+### Continuous Training
+
+## Key Glossary Cheatsheet
+
+### Training
+
+| Name                   | Meaning                                      |
+| ---------------------- | -------------------------------------------- |
+| Loss Function          | Error for single data point                  |
+| Cost Function          | Error for batch of data points               |
+| Optimizer              | Decides how to update the weights            |
+| Gradient Descent       | Greedy algorithm to reduce cost              |
+| Batch Size             | How much data is used in an iteration        |
+| Epoch                  | How many iteration to go through the dataset |
+| mean Average Precision | Object detection metric with TP, TN, FP, FN  |
+
+### Problems
+
+| Problem            | Definition                   | Cause | Solution |
+| ------------------ | ---------------------------- | ----- | -------- |
+| Vanishing gradient | Model fails to learn feature |       |          |
+| Data drift         |                              |       |          |
+| Overfitting        | Model fails to generalize    |       |          |
+|                    |                              |       |          |
+|                    |                              |       |          |
