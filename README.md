@@ -22,6 +22,11 @@ Enjoy the show.
 
 ## Algorithm
 
+- [One-time-passcode Generation](https://github.com/hyfung/Projects_2025/blob/white/Algorithm/OTP_Generation/README.md)
+- [String Matching Strategies](https://github.com/hyfung/Projects_2025/tree/white/Algorithm/StringMatching)
+- [2D Dijkstra Pathfinding](https://github.com/hyfung/Projects_2025/tree/white/Algorithm/Dijkstra2D)
+- [2D Kalman Filter](https://github.com/hyfung/Projects_2025/tree/white/Algorithm/Kalman2D)
+
 ## Computer Vision
 
 - [How Autofocus Work](https://github.com/hyfung/Projects_2025/tree/white/CV/Autofocus)
