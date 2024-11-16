@@ -13,8 +13,21 @@ There are numerous way to serve a model
 
 ## Serverless Function
 
+- Use AWS Lambda (or similar cloud provider) to write a serverless function in Python
+- Write `requirements.txt` and install packages
+- Instantiate object of the detector
+- Receives HTTP request and respond
+
+> Write an AWS Lambda function to load a YOLOv5 model from AWS S3 and perform inference on request
+
+```python
+# Sample code here
+```
+
 ## Container
 
-## Monolithic
+Gives you more control
 
-## Integrated
+## Monolithic / Integrated
+
+Instead of making the model a microservice, it is built in to the application itself
