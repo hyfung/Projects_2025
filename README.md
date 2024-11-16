@@ -1,12 +1,34 @@
 # Projects_2025
-Fun projects for 2025
+
+You might see a lot of traces where the code seemed to be generated rather than I wrote them.
+
+Let's face it, everyone codes with ChatGPT nowadays just like how people used to code with Google.
+
+Its 2025, code smart, don't code hard. Ask the critical question, have it generate a template, you can clean up afterward.
+
+Leverage AI by knowing what kind of method you could use, let it finish 80% of the work and you fill in the remaining 20%.
+
+Knowing the concept is more important than memorizing the implementation.
+
+Enjoy the show.
 
 # Table of Content
 
 ## AI
 
+- [CNN-based 2D Trajectory Classification](https://github.com/hyfung/Projects_2025/tree/white/AI/CNN-based%202D%20Trajectory%20Classification)
+- [CNN-based Time Series Classification](https://github.com/hyfung/Projects_2025/tree/white/AI/CNN-based%20Time%20Series%20Classification)
+- [Transformer-based Time Series Classification](https://github.com/hyfung/Projects_2025/tree/white/AI/Transformer-based%20Time%20Series%20Classification)
+
 ## Algorithm
 
 ## Computer Vision
 
+- [How Autofocus Work](https://github.com/hyfung/Projects_2025/tree/white/CV/Autofocus)
+- [Card Detection by Edge Detection](https://github.com/hyfung/Projects_2025/tree/white/CV/Card_detection)
+- [Perspective Transform For Straightening a Document](https://github.com/hyfung/Projects_2025/tree/white/CV/Perspective_Transform)
+- [Determining if an object is in Region of Interest (ROI)](https://github.com/hyfung/Projects_2025/tree/white/CV/ROI)
+
 ## DevOps
+
+- [DevOps Mastery & Notes](https://github.com/hyfung/Projects_2025/tree/white/Coursera/KodeKloud%20DevOps%20Mastery)
