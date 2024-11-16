@@ -45,6 +45,20 @@ There are numerous way to serve a model
 | Epoch                  | How many iteration to go through the dataset |
 | mean Average Precision | Object detection metric with TP, TN, FP, FN  |
 
+### Common Loss Functions
+
+| Name                             | Measures                                                                          | Use Case                                 |
+| -------------------------------- | --------------------------------------------------------------------------------- | ---------------------------------------- |
+| Mean Squared Error               |                                                                                   | Regression                               |
+| Mean Absolute Error              |                                                                                   | Regression                               |
+| Binary Cross-Entropy             | How well the predicted probabilities match true labels                            | Binary Classification                    |
+| Categorical Cross-Entropy        | How well the predicted probability distribution aligns with the true distribution | One Hot Multi Class Classification       |
+| Sparse Categorical Cross-Entropy | Similar to categorical cross-entropy                                              | Integer Label Multi Class Classification |
+|                                  |                                                                                   |                                          |
+|                                  |                                                                                   |                                          |
+
+### Common Optimizers
+
 ### Problems
 
 | Problem            | Definition                   | Cause | Solution |
