@@ -20,10 +20,12 @@ Enjoy the show.
 
 ## AI
 
+- [General Knowledge](https://github.com/hyfung/Projects_2025/blob/white/AI/README.md)
 - [CNN-based 2D Trajectory Classification](https://github.com/hyfung/Projects_2025/tree/white/AI/CNN-based%202D%20Trajectory%20Classification)
 - [CNN-based Time Series Classification](https://github.com/hyfung/Projects_2025/tree/white/AI/CNN-based%20Time%20Series%20Classification)
 - [Transformer-based Time Series Classification](https://github.com/hyfung/Projects_2025/tree/white/AI/Transformer-based%20Time%20Series%20Classification)
 - [Model Deployment Strategies](https://github.com/hyfung/Projects_2025/tree/white/AI/Model%20Deployment)
+- [ETL & Data Pipeline]()
 - [Training YOLOv5 Model]()
 
 ## Algorithm
