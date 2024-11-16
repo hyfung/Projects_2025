@@ -23,6 +23,8 @@ Enjoy the show.
 - [CNN-based 2D Trajectory Classification](https://github.com/hyfung/Projects_2025/tree/white/AI/CNN-based%202D%20Trajectory%20Classification)
 - [CNN-based Time Series Classification](https://github.com/hyfung/Projects_2025/tree/white/AI/CNN-based%20Time%20Series%20Classification)
 - [Transformer-based Time Series Classification](https://github.com/hyfung/Projects_2025/tree/white/AI/Transformer-based%20Time%20Series%20Classification)
+- [Model Deployment Strategies]()
+- [Training YOLOv5 Model]()
 
 ## Algorithm
 
