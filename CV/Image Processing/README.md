@@ -121,3 +121,9 @@ Q =
 72 & 92 & 95 & 98 & 112 & 100 & 103 & 99
 \end{bmatrix}
 $$
+
+## Calculating DCT Step By Step
+1. Create an 8x8 matrix $X$
+2. Center the values by $X - 128$
+3. Define DCT-II Transformation Matrix $C$
+4. Compute 2D DCT $D = C . I . C^T$
