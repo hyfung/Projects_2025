@@ -51,6 +51,8 @@ Enjoy the show.
 ## DevOps
 
 - [DevOps Mastery & Notes](https://github.com/hyfung/Projects_2025/tree/white/Coursera/KodeKloud%20DevOps%20Mastery)
+- [Jenkins]()
+- [PyTest]()
 
 ## Misc
 
