@@ -27,6 +27,7 @@ Enjoy the show.
 - [Model Deployment Strategies](https://github.com/hyfung/Projects_2025/tree/white/AI/Model%20Deployment)
 - [ETL & Data Pipeline]()
 - [Training YOLOv5 Model]()
+- [Histogram-based Video Analysis](https://github.com/hyfung/Projects_2025/tree/white/AI/Histogram-based%20Video%20Watermark)
 
 ## Algorithm
 
