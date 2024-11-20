@@ -58,3 +58,7 @@ Enjoy the show.
 ## Misc
 
 - [Warcraft 3 Topics]()
+
+## Reference
+
+- [Markdown Latex cheatsheet](https://ashki23.github.io/markdown-latex.html)

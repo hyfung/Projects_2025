@@ -4,11 +4,31 @@ https://www.coursera.org/learn/object-tracking-and-motion-computer-vision
 
 ### Background Subtraction
 
+- Subtract frame with background frame
+
 ### Feature Matching
+
+-
 
 ### Template Matching
 
+- Select a portion of image
+
+Steps to stabilize a video
+
+- Motion Estimation
+  - $P_n = P_{n-1} + \Delta_n$
+- Camera Motion Estimation
+- Video Correction
+
 ### Optical Flow
+
+- $I_xu + I_yv + I_t = 0$
+  - Horn-Schunk
+  - Lukas-Kanade
+  - Farneback
+- Differences of intensity of video frames
+- Use gradient to estimate velocity of pixels
 
 ## Object Tracking
 

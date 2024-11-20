@@ -47,12 +47,25 @@ close(videoOut);
 
 ### Assign
 
+- Assignment cost
+- Cost of non-assignment
+- Assignment optimization
+
 ### Update
 
 - Initialize tracking parameters
 - Update track estimates
 - Update metadata
+  - Increment all track age
+  - Increment all visible track total visible count
+  - Confirm tracks detected enough
+  - Reset counter for consecutive frames undetected if detected
+  - Increment counter for consective frames undetected
 - Initialize new track
 - Delete lost track
+  - Visibility count over track age
+    - Age threshold
+    - Visibility threshold
+    - Lost threshold
 
 ### Predict
