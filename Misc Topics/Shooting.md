@@ -15,3 +15,13 @@
 Ballistic Equation: $Fd = 1/2 pv^2$
 
 Newton's second law: $F = ma$
+
+### PMC 223 Rem 55gr FMJ-BT
+
+| Distance | Drop | MOA   |
+| -------- | ---- | ----- |
+| Muzzle   | -1.5 |       |
+| 50y      | 0    | N     |
+| 100y     | +2.0 | D 2   |
+| 200y     | 0    | N     |
+| 300y     | -9.3 | U 3.1 |
