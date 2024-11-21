@@ -1,5 +1,14 @@
 # Using Self Attention Mechanism to Classify Emails
 
+## Importing Libraries
+
+```python
+import torch
+import torch.nn as nn
+import torch.optim as optim
+from torch.utils.data import DataLoader, Dataset
+```
+
 ## Prepare Dataset
 
 ```python
@@ -98,8 +107,30 @@ epochs = 5
 learning_rate = 1e-4
 
 # Example data
-texts = ["I love this!", "I hate this."]
-labels = [1, 0]
+
+# Load rejection data from folder
+texts_rejection = []
+for filename in [os.path.join('data/rejection', filename) for filename in os.listdir('data/rejection')]:
+    with open(filename, 'r') as f:
+        texts_rejection += f.readlines()
+
+texts_rejection = [text.strip('\n').strip(' ') for text in texts_rejection]
+texts_rejection = [text for text in texts_rejection if text != '']
+labels_rejection = [1] * len(texts_rejection)
+
+# Load nonrejection data from folder
+texts_nonrejection = []
+for filename in [os.path.join('data/rejection', filename) for filename in os.listdir('data/rejection')]:
+    with open(filename, 'r') as f:
+        texts_nonrejection += f.readlines()
+
+texts_nonrejection = [text.strip('\n').strip(' ') for text in texts_nonrejection]
+texts_nonrejection = [text for text in texts_nonrejection if text != '']
+labels_nonrejection = [1] * len(texts_nonrejection)
+
+# Create dataset
+texts = texts_rejection + texts_nonrejection
+labels = labels_rejection + labels_nonrejection
 
 # Tokenizer
 from transformers import AutoTokenizer
