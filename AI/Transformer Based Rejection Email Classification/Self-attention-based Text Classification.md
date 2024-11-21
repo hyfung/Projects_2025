@@ -184,7 +184,7 @@ def predict(text, model, tokenizer, max_len):
         probs = torch.softmax(logits, dim=1)
         return torch.argmax(probs, dim=1).item()
 
-test_text = "Thank you for your time"
-prediction = predict(test_text, model, tokenizer, max_len)
-print(f"Prediction: {prediction}")
+
+print(predict("Unfortunately we have decided to move forward with other candidates whose experiences are more aligned with our goal", model, tokenizer, max_len))
+print(predict("Thank you for your time and we would like to take you to the next step", model, tokenizer, max_len))
 ```
