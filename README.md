@@ -20,6 +20,7 @@ Enjoy the show.
 
 ## AI
 
+- [Transformer Based Jobseeking Reply Classification](https://github.com/hyfung/Projects_2025/tree/white/AI/Transformer%20Based%20Rejection%20Email%20Classification)
 - [General Knowledge](https://github.com/hyfung/Projects_2025/blob/white/AI/README.md)
 - [CNN-based 2D Trajectory Classification](https://github.com/hyfung/Projects_2025/tree/white/AI/CNN-based%202D%20Trajectory%20Classification)
 - [CNN-based Time Series Classification](https://github.com/hyfung/Projects_2025/tree/white/AI/CNN-based%20Time%20Series%20Classification)
