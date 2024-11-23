@@ -21,3 +21,36 @@
 | [DevOps, DataOps, MLOps](https://www.coursera.org/learn/devops-dataops-mlops-duke?specialization) |          |
 | [MLOps Platforms](https://www.coursera.org/learn/mlops-aws-azure-duke?specialization)             |          |
 | [MLOps Tools](https://www.coursera.org/learn/mlops-mlflow-huggingface-duke?specialization)        |          |
+
+## Large Language Model Operations (LLMOps) Specialization
+
+[LLM Operations](https://www.coursera.org/specializations/large-language-model-operations)
+
+| Name                                                                                  | Progress |
+| ------------------------------------------------------------------------------------- | -------- |
+| [Intro to GenAI](https://www.coursera.org/learn/intro-gen-ai)                         |          |
+| [LLMOps on Azure](https://www.coursera.org/learn/llmops-azure)                        |          |
+| [Advanced Data Engineering](https://www.coursera.org/learn/advanced-data-engineering) |          |
+| [GenAI LLM on AWS](https://www.coursera.org/learn/genai-llm-aws)                      |          |
+| [Databricks and Local LLM](https://www.coursera.org/learn/databricks-to-local-llms)   |          |
+| [LLMOps Solution](https://www.coursera.org/learn/open-source-llmops-solutions)        |          |
+
+## IBM AI Engineer
+
+[IBM AI Engineer](https://www.coursera.org/professional-certificates/ai-engineer)
+
+| Name                                                                                                                             | Progress |
+| -------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| [ML with Python](https://www.coursera.org/learn/machine-learning-with-python)                                                    |          |
+| [DL with Keras](https://www.coursera.org/learn/introduction-to-deep-learning-with-keras)                                         |          |
+| [DL with TensorFlow](https://www.coursera.org/learn/building-deep-learning-models-with-tensorflow)                               |          |
+| [DNN with PyTorch](https://www.coursera.org/learn/deep-neural-networks-with-pytorch)                                             |          |
+| [Advanced DNN with PyTorch](https://www.coursera.org/learn/advanced-deep-learning-with-pytorch)                                  |          |
+| [AI DL Capstone](https://www.coursera.org/learn/ai-deep-learning-capstone)                                                       |          |
+| [GenAI LLM Arch Data Prep](https://www.coursera.org/learn/generative-ai-llm-architecture-data-preparation)                       |          |
+| [GenAI Foundation Models for NLP](https://www.coursera.org/learn/gen-ai-foundational-models-for-nlp-and-language-understanding)  |          |
+| [GenAI Modelling with Transformers](https://www.coursera.org/learn/generative-ai-language-modeling-with-transformers)            |          |
+| [GenAI and Fine-tuning Transformers](https://www.coursera.org/learn/generative-ai-engineering-and-fine-tuning-transformers)      |          |
+| [GenAI Advanced Fine-tuning for LLM](https://www.coursera.org/learn/generative-ai-advanced-fine-tuning-for-llms)                 |          |
+| [AI Agents with RAG and Langchain](https://www.coursera.org/learn/fundamentals-of-ai-agents-using-rag-and-langchain)             |          |
+| [GenAI Project with RAG and Langchain](https://www.coursera.org/learn/project-generative-ai-applications-with-rag-and-langchain) |          |
