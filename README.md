@@ -47,9 +47,9 @@ Enjoy the show.
 
 ## Control Theory
 
-- [PID Controllers](https://github.com/hyfung/Projects_2025/tree/white/ControlTheory/PIDController)
-- [Filters in Measurement](https://github.com/hyfung/Projects_2025/tree/white/ControlTheory/MeasurementFilters)
-- [Sensor Fusion]()
+- [PID Controllers](https://github.com/hyfung/Projects_2025/blob/white/Control%20Theory/PID%20Controller.md)
+- [Filters in Measurement](https://github.com/hyfung/Projects_2025/blob/white/Control%20Theory/Measurement%20Filters.md)
+- [State Estimation](https://github.com/hyfung/Projects_2025/blob/white/Control%20Theory/State%20Estimation.md)
 
 ## DevOps
 
