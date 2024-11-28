@@ -21,4 +21,10 @@ $GCD(a,b) = ax + by$
 
 ## Diophantine equation
 
+Given $ f(x,y) $
+
+Transforms $ f(x,y) $ to $ f'(k) $ where $ k \in \mathbb{Z} $
+
+For example $ 3x + 4y = 5 $ becomes $ x = ak + b$ and $ y = ck + d $
+
 ## Trapdoor Function
