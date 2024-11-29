@@ -21,7 +21,34 @@ cv2.destroyAllWindows()
 ## Edge Detection
 
 ```python
+import cv2
+import numpy as np
 
+cv2.namedWindow('Image')
+cv2.createTrackbar('Kernel Size', 'Image', 0, 10, lambda x: None)
+cv2.createTrackbar('Gaussian Size', 'Image', 0, 10, lambda x: None)
+cv2.createTrackbar('Gaussian SD', 'Image', 0, 10, lambda x: None)
+
+cap = cv2.VideoCapture(2)
+
+while True:
+    #
+    gaussian_size = 2 * cv2.getTrackbarPos('Gaussian Size', 'Image') + 1
+    gaussian_sd = cv2.getTrackbarPos('Gaussian SD', 'Image')
+    sobel_ksize = 2 * cv2.getTrackbarPos('Kernel Size', 'Image') + 1
+    #
+    ret, image = cap.read()
+    image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    image = cv2.GaussianBlur(image, (gaussian_size, gaussian_size), gaussian_sd)
+    sobel_x = cv2.Sobel(image, cv2.CV_64F, 1, 0, ksize=sobel_ksize)  # x-direction
+    sobel_y = cv2.Sobel(image, cv2.CV_64F, 0, 1, ksize=sobel_ksize)  # y-direction
+    sobel_combined = cv2.addWeighted(sobel_x, 0.5, sobel_y, 0.5, 0)
+    cv2.imshow("Image", sobel_combined)
+    if cv2.waitKey(33) & 0xFF == ord('q'):
+        break
+
+capture.cap()
+cv2.destroyAllWindows()
 ```
 
 ## Thresholding
