@@ -41,15 +41,15 @@
 
 | Name                                                                                                                             | Progress |
 | -------------------------------------------------------------------------------------------------------------------------------- | -------- |
-| [ML with Python](https://www.coursera.org/learn/machine-learning-with-python)                                                    |          |
+| [ML with Python](https://www.coursera.org/learn/machine-learning-with-python)                                                    | ❌       |
 | [DL with Keras](https://www.coursera.org/learn/introduction-to-deep-learning-with-keras)                                         |          |
-| [DL with TensorFlow](https://www.coursera.org/learn/building-deep-learning-models-with-tensorflow)                               |          |
-| [DNN with PyTorch](https://www.coursera.org/learn/deep-neural-networks-with-pytorch)                                             |          |
+| [DL with TensorFlow](https://www.coursera.org/learn/building-deep-learning-models-with-tensorflow)                               | ✅       |
+| [DNN with PyTorch](https://www.coursera.org/learn/deep-neural-networks-with-pytorch)                                             | ⏳       |
 | [Advanced DNN with PyTorch](https://www.coursera.org/learn/advanced-deep-learning-with-pytorch)                                  |          |
 | [AI DL Capstone](https://www.coursera.org/learn/ai-deep-learning-capstone)                                                       |          |
-| [GenAI LLM Arch Data Prep](https://www.coursera.org/learn/generative-ai-llm-architecture-data-preparation)                       |          |
-| [GenAI Foundation Models for NLP](https://www.coursera.org/learn/gen-ai-foundational-models-for-nlp-and-language-understanding)  |          |
-| [GenAI Modelling with Transformers](https://www.coursera.org/learn/generative-ai-language-modeling-with-transformers)            |          |
+| [GenAI LLM Arch Data Prep](https://www.coursera.org/learn/generative-ai-llm-architecture-data-preparation)                       | ✅       |
+| [GenAI Foundation Models for NLP](https://www.coursera.org/learn/gen-ai-foundational-models-for-nlp-and-language-understanding)  | ✅       |
+| [GenAI Modelling with Transformers](https://www.coursera.org/learn/generative-ai-language-modeling-with-transformers)            | ✅       |
 | [GenAI and Fine-tuning Transformers](https://www.coursera.org/learn/generative-ai-engineering-and-fine-tuning-transformers)      |          |
 | [GenAI Advanced Fine-tuning for LLM](https://www.coursera.org/learn/generative-ai-advanced-fine-tuning-for-llms)                 |          |
 | [AI Agents with RAG and Langchain](https://www.coursera.org/learn/fundamentals-of-ai-agents-using-rag-and-langchain)             |          |
@@ -58,6 +58,20 @@
 ## IBM Backend
 
 [Backend Development](https://www.coursera.org/professional-certificates/ibm-backend-development)
+
+| Name                                                                                                                               | Progress |
+| ---------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| [Intro to Software Engineering](https://www.coursera.org/learn/introduction-to-software-engineering)                               |          |
+| [Intro to Linux and Shell](https://www.coursera.org/learn/hands-on-introduction-to-linux-commands-and-shell-scripting)             |          |
+| [Git and GitHub](https://www.coursera.org/learn/getting-started-with-git-and-github)                                               |          |
+| [Python for Data Science and AI](https://www.coursera.org/learn/python-for-applied-data-science-ai)                                |          |
+| [Python for AI App Development](https://www.coursera.org/learn/python-project-for-ai-application-development)                      |          |
+| [Django and SQL Databases](https://www.coursera.org/learn/developing-applications-with-sql-databases-and-django)                   | ⏳       |
+| [Containers, Docker, K8s, Openshift](https://www.coursera.org/learn/ibm-containers-docker-kubernetes-openshift)                    |          |
+| [Microservices, Serverless, Openshift](https://www.coursera.org/learn/applications-development-microservices-serverless-openshift) |          |
+| [Security for Developers](https://www.coursera.org/learn/application-security-for-developers-devops)                               |          |
+| [Monitoring and Observability](https://www.coursera.org/learn/monitoring-and-observability-for-development-and-devops)             |          |
+| [Capstone Project](https://www.coursera.org/learn/backend-development-capstone-projectI)                                           |          |
 
 ## Coding
 
