@@ -30,7 +30,7 @@
 | ------------------------------------------------------------------------------------- | -------- |
 | [Intro to GenAI](https://www.coursera.org/learn/intro-gen-ai)                         |          |
 | [LLMOps on Azure](https://www.coursera.org/learn/llmops-azure)                        |          |
-| [Advanced Data Engineering](https://www.coursera.org/learn/advanced-data-engineering) |          |
+| [Advanced Data Engineering](https://www.coursera.org/learn/advanced-data-engineering) | ⏳       |
 | [GenAI LLM on AWS](https://www.coursera.org/learn/genai-llm-aws)                      |          |
 | [Databricks and Local LLM](https://www.coursera.org/learn/databricks-to-local-llms)   |          |
 | [LLMOps Solution](https://www.coursera.org/learn/open-source-llmops-solutions)        |          |
