@@ -65,11 +65,11 @@
 | [Intro to Linux and Shell](https://www.coursera.org/learn/hands-on-introduction-to-linux-commands-and-shell-scripting)             |          |
 | [Git and GitHub](https://www.coursera.org/learn/getting-started-with-git-and-github)                                               |          |
 | [Python for Data Science and AI](https://www.coursera.org/learn/python-for-applied-data-science-ai)                                |          |
-| [Python for AI App Development](https://www.coursera.org/learn/python-project-for-ai-application-development)                      |          |
-| [Django and SQL Databases](https://www.coursera.org/learn/developing-applications-with-sql-databases-and-django)                   | ⏳✅     |
+| [Python for AI App Development](https://www.coursera.org/learn/python-project-for-ai-application-development)                      | ⏳       |
+| [Django and SQL Databases](https://www.coursera.org/learn/developing-applications-with-sql-databases-and-django)                   | ✅       |
 | [Containers, Docker, K8s, Openshift](https://www.coursera.org/learn/ibm-containers-docker-kubernetes-openshift)                    |          |
 | [Microservices, Serverless, Openshift](https://www.coursera.org/learn/applications-development-microservices-serverless-openshift) |          |
-| [Security for Developers](https://www.coursera.org/learn/application-security-for-developers-devops)                               | ⏳       |
+| [Security for Developers](https://www.coursera.org/learn/application-security-for-developers-devops)                               | ✅       |
 | [Monitoring and Observability](https://www.coursera.org/learn/monitoring-and-observability-for-development-and-devops)             | ⏳       |
 | [Capstone Project](https://www.coursera.org/learn/backend-development-capstone-projectI)                                           |          |
 
