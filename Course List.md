@@ -84,3 +84,22 @@
 | []()                                                                                                                                 |          |
 | []()                                                                                                                                 |          |
 | []()                                                                                                                                 |          |
+
+## Web Development - FastAPI & React
+
+| Name                                                                                                                                    | Progress |
+| --------------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| [Intro to FastAPI](https://www.coursera.org/projects/introduction-to-fastapi-framework)                                                 | ✅       |
+| [Basic React](https://www.coursera.org/learn/react-basics)                                                                              | ⏳       |
+| [Advanced React](https://www.coursera.org/learn/advanced-react)                                                                         |          |
+| [Frontend App with React](https://www.coursera.org/learn/developing-frontend-apps-with-react)                                           |          |
+| [Frontend Development Using React](https://www.coursera.org/learn/frontend-development-using-react)                                     |          |
+| [ChatBot with React and FastAPI](https://www.coursera.org/learn/packt-chatgpt-voice-powered-chatbot-build-with-react-and-fastapi-fsitd) |          |
+| [JS Programming with React, Node, Mongo](https://www.coursera.org/specializations/javascript-programming-with-react-node-mongodb)       |          |
+
+## Data
+
+| Name                                                                                                                        | Progress |
+| --------------------------------------------------------------------------------------------------------------------------- | -------- |
+| [Introduction to Big Data with Spark and Hadoop](https://www.coursera.org/learn/introduction-to-big-data-with-spark-hadoop) |          |
+| [Spark, Hadoop, and Snowflake for Data Engineering](https://www.coursera.org/learn/spark-hadoop-snowflake-data-engineering) |          |
