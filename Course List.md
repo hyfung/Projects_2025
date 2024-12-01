@@ -127,6 +127,7 @@
 - [Watching Neural Networks Learn](https://www.youtube.com/watch?v=TkwXa7Cvfr8)
 - [Transformer Neural Networks Derived from Scratch](https://www.youtube.com/watch?v=kWLed8o5M2Y)✅
 - [The Breakthrough Behind Modern AI Image Generators](https://www.youtube.com/watch?v=1pgiu--4W3I)
+- [Visualizing transformers and attention](https://www.youtube.com/watch?v=KJtZARuO3JY)
 
 ## 3Blue1Brown
 
@@ -137,6 +138,6 @@
 - [Gradient descent, how neural networks learn | DL2](https://www.youtube.com/watch?v=IHZwWFHWa-w)
 - [Backpropagation, step-by-step | DL3](https://www.youtube.com/watch?v=Ilg3gGewQ5U)
 - [Backpropagation calculus | DL4](https://www.youtube.com/watch?v=tIeHLnjs5U8)
-- [Transformers (how LLMs work) explained visually | DL5 ](https://www.youtube.com/watch?v=wjZofJX0v4M)
-- [Attention in transformers, visually explained | DL6](https://www.youtube.com/watch?v=eMlx5fFNoYc)
-- [ How might LLMs store facts | DL7 ](https://www.youtube.com/watch?v=9-Jl0dxWQs8)
+- [Transformers (how LLMs work) explained visually | DL5 ](https://www.youtube.com/watch?v=wjZofJX0v4M)✅
+- [Attention in transformers, visually explained | DL6](https://www.youtube.com/watch?v=eMlx5fFNoYc)✅
+- [ How might LLMs store facts | DL7 ](https://www.youtube.com/watch?v=9-Jl0dxWQs8)✅
