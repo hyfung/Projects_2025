@@ -128,6 +128,11 @@
 - [Transformer Neural Networks Derived from Scratch](https://www.youtube.com/watch?v=kWLed8o5M2Y)✅
 - [The Breakthrough Behind Modern AI Image Generators](https://www.youtube.com/watch?v=1pgiu--4W3I)
 - [Visualizing transformers and attention](https://www.youtube.com/watch?v=KJtZARuO3JY)
+- [ Transformers, Simply Explained | Deep Learning ](https://www.youtube.com/watch?v=UPhaYex4zZk)
+- [ The Key Equation Behind Probability ](https://www.youtube.com/watch?v=KHVR587oW8I)
+- [ Vector-Quantized Variational Autoencoders (VQ-VAEs) | Deep Learning ](https://www.youtube.com/watch?v=yQvELPjmyn0)
+- [ Understanding GANs (Generative Adversarial Networks) | Deep Learning ](https://www.youtube.com/watch?v=RAa55G-oEuk)
+- [ Autoencoders | Deep Learning Animated ](https://www.youtube.com/watch?v=hZ4a4NgM3u0)
 
 ### Deepia
 
