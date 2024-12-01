@@ -129,6 +129,11 @@
 - [The Breakthrough Behind Modern AI Image Generators](https://www.youtube.com/watch?v=1pgiu--4W3I)
 - [Visualizing transformers and attention](https://www.youtube.com/watch?v=KJtZARuO3JY)
 
+### Deepia
+
+- [Contrastive Learning with SimCLR | Deep Learning Animated ](https://www.youtube.com/watch?v=UqJauYELn6c)
+- [ Denoising Autoencoders | Deep Learning Animated ](https://www.youtube.com/watch?v=0V96wE7lY4w)
+
 ## 3Blue1Brown
 
 ### AI
