@@ -103,3 +103,40 @@
 | --------------------------------------------------------------------------------------------------------------------------- | -------- |
 | [Introduction to Big Data with Spark and Hadoop](https://www.coursera.org/learn/introduction-to-big-data-with-spark-hadoop) |          |
 | [Spark, Hadoop, and Snowflake for Data Engineering](https://www.coursera.org/learn/spark-hadoop-snowflake-data-engineering) |          |
+
+## Podcast
+
+- [AI can't cross this line and we don't know why.](https://www.youtube.com/watch?v=5eqRuVp65eY)
+- [The moment we stopped understanding AI AlexNet](https://www.youtube.com/watch?v=UZDiGooFs54)
+- [ MLT **init** Session #4 – SSD: Single Shot MultiBox Detector ](https://www.youtube.com/watch?v=F-irLP2k3Dk)✅
+- [ MLT **init** Session #5: RNN Encoder-Decoder ](https://www.youtube.com/watch?v=Er8uAQoy6Sk)
+- [ MLT **init** Session #6: Attention is all you need ](https://www.youtube.com/watch?v=F7k8M3xTLzk)
+- [ MLT **init** Session #7: An Image is Worth 16x16 Words ](https://www.youtube.com/watch?v=yCEpkEb7mvw)
+- [ MLT **init** Session #8: Filter Pruning via Geometric Median ](https://www.youtube.com/watch?v=k7rVPd_Wvpg)
+- [ MLT **init** Session #9: Self-Distillation as Instance-Specific Label Smoothing s](https://www.youtube.com/watch?v=aeZ7vU9fFdI)
+- [ MLT **init** Session #10: Rethinking Importance Weighting ](https://www.youtube.com/watch?v=UkbkhKIP_PY)
+- [ MLT **init** Session #13: Multitask Prompted Training](https://www.youtube.com/watch?v=RI9Wo2yGGt8)
+- [ MLT **init** Session #17: LLM int8 ](https://www.youtube.com/watch?v=o94ODz1CAtk)
+- [Why Does Diffusion Work Better than Auto-Regression?](https://www.youtube.com/watch?v=zc5NTeJbk-k)
+- [ Single Shot Multibox Detector | SSD Object Detection Explained and Implemented ](https://www.youtube.com/watch?v=c_nEue9itwg)
+- [ Variational Autoencoders | Generative AI Animated ](https://www.youtube.com/watch?v=qJeaCHQ1k2w)
+- [ Why Does Diffusion Work Better than Auto-Regression? ](https://www.youtube.com/watch?v=zc5NTeJbk-k)
+- [MAMBA from Scratch: Neural Nets Better and Faster than Transformers](https://www.youtube.com/watch?v=N6Piou4oYx8)
+- [But what is a convolution?](https://www.youtube.com/watch?v=KuXjwB4LzSA)
+- [Convolutions | Why X+Y in probability is a beautiful mess](https://www.youtube.com/watch?v=IaSGqQa5O-M)
+- [Watching Neural Networks Learn](https://www.youtube.com/watch?v=TkwXa7Cvfr8)
+- [Transformer Neural Networks Derived from Scratch](https://www.youtube.com/watch?v=kWLed8o5M2Y)✅
+- [The Breakthrough Behind Modern AI Image Generators](https://www.youtube.com/watch?v=1pgiu--4W3I)
+
+## 3Blue1Brown
+
+### AI
+
+- [Large Language Models explained briefly ](https://www.youtube.com/watch?v=LPZh9BOjkQs)
+- [But what is a neural network? | DL1](https://www.youtube.com/watch?v=aircAruvnKk)
+- [Gradient descent, how neural networks learn | DL2](https://www.youtube.com/watch?v=IHZwWFHWa-w)
+- [Backpropagation, step-by-step | DL3](https://www.youtube.com/watch?v=Ilg3gGewQ5U)
+- [Backpropagation calculus | DL4](https://www.youtube.com/watch?v=tIeHLnjs5U8)
+- [Transformers (how LLMs work) explained visually | DL5 ](https://www.youtube.com/watch?v=wjZofJX0v4M)
+- [Attention in transformers, visually explained | DL6](https://www.youtube.com/watch?v=eMlx5fFNoYc)
+- [ How might LLMs store facts | DL7 ](https://www.youtube.com/watch?v=9-Jl0dxWQs8)
