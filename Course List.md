@@ -151,3 +151,12 @@
 - [Transformers (how LLMs work) explained visually | DL5 ](https://www.youtube.com/watch?v=wjZofJX0v4M)✅
 - [Attention in transformers, visually explained | DL6](https://www.youtube.com/watch?v=eMlx5fFNoYc)✅
 - [ How might LLMs store facts | DL7 ](https://www.youtube.com/watch?v=9-Jl0dxWQs8)✅
+
+
+## Kotlin
+
+- [Kotlin for Java Developers](https://www.coursera.org/learn/kotlin-for-java-developers)
+- [Kotlin Fundamentals](https://www.coursera.org/learn/meta-programming-fundamentals-kotlin)
+- [Kotlin Advanced](https://www.coursera.org/learn/advanced-programming-in-kotlin)
+- [Meta Kotlin Android Developer](https://www.coursera.org/professional-certificates/meta-android-developer)
+- [Creating UI in Android Studio](https://www.coursera.org/learn/create-the-user-interface-android-studio)
