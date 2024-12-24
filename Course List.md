@@ -160,3 +160,6 @@
 - [Kotlin Advanced](https://www.coursera.org/learn/advanced-programming-in-kotlin)
 - [Meta Kotlin Android Developer](https://www.coursera.org/professional-certificates/meta-android-developer)
 - [Creating UI in Android Studio](https://www.coursera.org/learn/create-the-user-interface-android-studio)
+
+### Kotlin Docs
+- [KMP Documentation](https://kotlinlang.org/docs/multiplatform-intro.html)
